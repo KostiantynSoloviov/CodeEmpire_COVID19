@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CodeEmpire_COVID19/static/css/main.9bd68631.css",
+    "main.js": "/CodeEmpire_COVID19/static/js/main.3473d19e.js",
+    "index.html": "/CodeEmpire_COVID19/index.html",
+    "main.9bd68631.css.map": "/CodeEmpire_COVID19/static/css/main.9bd68631.css.map",
+    "main.3473d19e.js.map": "/CodeEmpire_COVID19/static/js/main.3473d19e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bd68631.css",
+    "static/js/main.3473d19e.js"
+  ]
+}
