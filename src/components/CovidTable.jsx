@@ -5,7 +5,7 @@ import './style.css';
 function CovidTable() {
     const [countries, setCountries] = useState([]);
     const [value, setValue] = useState('');
-    const [details, setDetails] = useState(null);
+    const [data, setData] = useState(null);
 
     useEffect(() => {
         fetch(`https://api.covid19api.com/summary`)
@@ -27,7 +27,7 @@ function CovidTable() {
 
     return (
         <div className="form-wrap">
-            <div className="block_heared">
+            <div className="block-header">
                 <img src="img/logo.png" alt="" />
                 <div>
                     <h1 className="statistic">STATISTIC</h1>
@@ -50,7 +50,7 @@ function CovidTable() {
 
             <div className="messages-wrapper">
                 <div className="header_list">
-                    <div className="item-detail1">
+                    <div className="item-detail">
                         <div className="simbol-number">№</div>
                         <div className="left-name">
                             Country
@@ -64,10 +64,10 @@ function CovidTable() {
                     return (
                         <div
                             key={item.ID}
-                            onClick={() => setDetails(item)}
+                            onClick={() => setData(item)}
                             className="message"
                         >
-                            <div className="item-detail2">
+                            <div className="item-detail">
                                 <div className="index ">{index + 1}</div>
                                 <div className="name-country">
                                     {item.Country}
@@ -83,7 +83,7 @@ function CovidTable() {
                 })}
             </div>
 
-            <TableRows onClose={() => setDetails(null)} details={details} />
+            <TableRows onClose={() => setData(null)} data={data} />
         </div>
     );
 }
