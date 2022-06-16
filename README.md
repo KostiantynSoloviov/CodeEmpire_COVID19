@@ -1,3 +1,12 @@
+#Task
+
+This assignment was offered as a test assignment for a trainee / junior position at codeempire. Deployed version:
+https://kostiantynsoloviov.github.io/CodeEmpire_COVID19/
+
+#Link to view layout in Figma.
+
+https://codempire-my.sharepoint.com/:w:/g/personal/dima_codempire_team/EZOfBJVaO91FhtGLLTrmf5wBsL4pNrSUkzfRiXK5Dm0tHQ?rtime=LrhBsL0p2Ug
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
